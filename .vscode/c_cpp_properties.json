@@ -1,0 +1,92 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/rlewis/Projects/ocp_ttf/include",
+                "/Users/rlewis/Projects/ocp_ttf/src",
+                "/Users/rlewis/.platformio/packages/framework-arduino-samd/libraries/Wire",
+                "/Users/rlewis/Projects/ocp_ttf/.pio/libdeps/samd21g18a/FlashStorage_SAMD/src",
+                "/Users/rlewis/Projects/ocp_ttf/.pio/libdeps/samd21g18a/SAMD_TimerInterrupt/src",
+                "/Users/rlewis/Projects/ocp_ttf/.pio/libdeps/samd21g18a/ArduinoINA219",
+                "/Users/rlewis/Projects/ocp_ttf/.pio/libdeps/samd21g18a/SoftI2CMaster/src",
+                "/Users/rlewis/.platformio/packages/framework-arduino-samd/cores/arduino/api/deprecated",
+                "/Users/rlewis/.platformio/packages/framework-arduino-samd/cores/arduino/api/deprecated-avr-comp",
+                "/Users/rlewis/.platformio/packages/framework-cmsis/CMSIS/Include",
+                "/Users/rlewis/.platformio/packages/framework-cmsis-atmel/CMSIS/Device/ATMEL",
+                "/Users/rlewis/.platformio/packages/framework-arduino-samd/cores/arduino",
+                "/Users/rlewis/.platformio/packages/framework-arduino-samd/variants/ttf",
+                "/Users/rlewis/.platformio/packages/framework-arduino-samd/libraries/HID",
+                "/Users/rlewis/.platformio/packages/framework-arduino-samd/libraries/I2S/src",
+                "/Users/rlewis/.platformio/packages/framework-arduino-samd/libraries/SAMD_AnalogCorrection/src",
+                "/Users/rlewis/.platformio/packages/framework-arduino-samd/libraries/SAMD_BootloaderUpdater/src",
+                "/Users/rlewis/.platformio/packages/framework-arduino-samd/libraries/SBU/src",
+                "/Users/rlewis/.platformio/packages/framework-arduino-samd/libraries/SDU/src",
+                "/Users/rlewis/.platformio/packages/framework-arduino-samd/libraries/SFU/src",
+                "/Users/rlewis/.platformio/packages/framework-arduino-samd/libraries/SNU/src",
+                "/Users/rlewis/.platformio/packages/framework-arduino-samd/libraries/SPI",
+                "/Users/rlewis/.platformio/packages/framework-arduino-samd/libraries/SSU/src",
+                "/Users/rlewis/.platformio/packages/framework-arduino-samd/libraries/USBHost/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/rlewis/Projects/ocp_ttf/include",
+                    "/Users/rlewis/Projects/ocp_ttf/src",
+                    "/Users/rlewis/.platformio/packages/framework-arduino-samd/libraries/Wire",
+                    "/Users/rlewis/Projects/ocp_ttf/.pio/libdeps/samd21g18a/FlashStorage_SAMD/src",
+                    "/Users/rlewis/Projects/ocp_ttf/.pio/libdeps/samd21g18a/SAMD_TimerInterrupt/src",
+                    "/Users/rlewis/Projects/ocp_ttf/.pio/libdeps/samd21g18a/ArduinoINA219",
+                    "/Users/rlewis/Projects/ocp_ttf/.pio/libdeps/samd21g18a/SoftI2CMaster/src",
+                    "/Users/rlewis/.platformio/packages/framework-arduino-samd/cores/arduino/api/deprecated",
+                    "/Users/rlewis/.platformio/packages/framework-arduino-samd/cores/arduino/api/deprecated-avr-comp",
+                    "/Users/rlewis/.platformio/packages/framework-cmsis/CMSIS/Include",
+                    "/Users/rlewis/.platformio/packages/framework-cmsis-atmel/CMSIS/Device/ATMEL",
+                    "/Users/rlewis/.platformio/packages/framework-arduino-samd/cores/arduino",
+                    "/Users/rlewis/.platformio/packages/framework-arduino-samd/variants/ttf",
+                    "/Users/rlewis/.platformio/packages/framework-arduino-samd/libraries/HID",
+                    "/Users/rlewis/.platformio/packages/framework-arduino-samd/libraries/I2S/src",
+                    "/Users/rlewis/.platformio/packages/framework-arduino-samd/libraries/SAMD_AnalogCorrection/src",
+                    "/Users/rlewis/.platformio/packages/framework-arduino-samd/libraries/SAMD_BootloaderUpdater/src",
+                    "/Users/rlewis/.platformio/packages/framework-arduino-samd/libraries/SBU/src",
+                    "/Users/rlewis/.platformio/packages/framework-arduino-samd/libraries/SDU/src",
+                    "/Users/rlewis/.platformio/packages/framework-arduino-samd/libraries/SFU/src",
+                    "/Users/rlewis/.platformio/packages/framework-arduino-samd/libraries/SNU/src",
+                    "/Users/rlewis/.platformio/packages/framework-arduino-samd/libraries/SPI",
+                    "/Users/rlewis/.platformio/packages/framework-arduino-samd/libraries/SSU/src",
+                    "/Users/rlewis/.platformio/packages/framework-arduino-samd/libraries/USBHost/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60107",
+                "__SAMD21G18A__",
+                "CRYSTALLESS",
+                "ARDUINO=10805",
+                "F_CPU=48000000L",
+                "USBCON",
+                "USB_VID=0x03EB",
+                "USB_PID=0x2111",
+                "USB_PRODUCT=\"OCP TTF\"",
+                "USB_MANUFACTURER=\"Atmel\"",
+                "ARDUINO_ARCH_SAMD",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/Users/rlewis/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mcpu=cortex-m0plus",
+                "-mthumb",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

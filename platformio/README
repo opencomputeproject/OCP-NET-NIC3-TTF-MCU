@@ -1,0 +1,11 @@
+Assuming that you have installed PlatformIO for VS Code, you will have a directory named .platformio in some "home" directory, which is shown below as <home>.
+
+In this directory "platformio" in this repo are 2 subdirectories: variants and boards.  You need to copy something from each subdirectory as shown below to configure PlatformIO for the TTF project.
+
+Copy the entire variants/ttf directory to:
+<home>/.platformio/packages/framework-arduino-samd/variants/
+
+Copy the boards/ttf.json file to:
+<home>/.platformio/platforms/atmelsam/boards/
+
+The platformio.ini file in this repo is already set up to use these 2 TTF configurations.

@@ -1,0 +1,7 @@
+.pio/build/samd21g18a/FrameworkArduino/
+.pio/build/samd21g18a/FrameworkArduinoVariant/
+.pio/build/samd21g18a/lib1dd/
+.pio/build/samd21g18a/src/
+.pio/build/samd21g18a/.sconsign39.dblite
+.pio/build/samd21g18a/libFrameworkArduino*.a
+

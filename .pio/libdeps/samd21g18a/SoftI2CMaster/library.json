@@ -1,0 +1,12 @@
+{
+  "name": "SoftI2CMaster",
+  "keywords": "i2c",
+  "description": "Software I2C Arduino library",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/felias-fogg/SoftI2CMaster.git"
+  },
+  "version": "2.1.3",
+  "frameworks": "arduino",
+  "platforms": "*"
+}
